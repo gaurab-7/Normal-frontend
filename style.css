@@ -21,10 +21,23 @@ a {
     width: 100%;
 }
 
+.decoration1 {
+    position: absolute;
+    right: -11rem;
+    top: 7rem;
+}
+
+.decoration2 {
+    position: absolute;
+    left: -11rem;
+    bottom: 7rem;
+}
+
 .container {
     max-width: 1300px;
     min-width: 1250px;
     margin-inline: auto ;
+    position: relative;
 }
 
 .container-large {
@@ -69,6 +82,11 @@ a {
 .f16px {
     font-size: 16px;
     line-height: 45px;
+}
+
+.big-text {
+    font-size: 72px;
+    font-weight: 800;
 }
 
 .w400 {
@@ -627,6 +645,24 @@ footer {
     transition: 0.3s;
 }
 
+.stats {
+    height: 256px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vertical-line {
+    background-color: #3D3D3D;
+    width: 2px;
+    height: 256px;
+}
+
+.stats-sub-text {
+    font-size: 30px;
+    font-weight: 400;
+}
 
 /* @media (max-width: 1250px) {
     .right-nav {
